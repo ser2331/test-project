@@ -1,0 +1,16 @@
+.App {
+    text-align: center;
+    height: 100vh;
+
+    &__scroll {
+        position: fixed;
+        color: white;
+        bottom: -30px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        img {
+            margin: 0 auto;
+        }
+    }
+}

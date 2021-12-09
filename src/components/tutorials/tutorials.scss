@@ -1,0 +1,38 @@
+.Tutorials {
+    display: flex;
+    justify-content: space-around;
+    background-image: url("../../assets/images/blok-5.png");
+    padding: 25px 30px;
+
+    &__inform-wrapper {
+        margin-top: 150px;
+        text-align: left;
+        .title {
+            color: #ffffff;
+            font-family: Gotham;
+            font-size: 25px;
+            line-height: 36px;
+            text-transform: uppercase;
+        }
+
+        .inform {
+            margin-top: 40px;
+            color: #ffffff;
+            letter-spacing: 0.5px;
+            font-family: "Gotham - Book";
+            font-size: 15px;
+        }
+
+        .inform-btn {
+            .btn {
+                background-color: #11749e;
+                padding: 12px 20px;
+                margin: 15px 0;
+                color: #ffffff;
+                font-family: Gotham;
+                font-size: 15px;
+                text-transform: uppercase;
+            }
+        }
+    }
+}

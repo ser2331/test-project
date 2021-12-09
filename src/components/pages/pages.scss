@@ -1,0 +1,73 @@
+.Pages {
+    height: 100%;
+    background-color: #11749e;
+
+    &__content {
+        margin: 0 auto;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+
+        .w-logo {
+            position: absolute;
+            opacity: 0.18;
+            color: #ffffff;
+            font-size: 247px;
+            font-weight: 600;
+            font-style: normal;
+            letter-spacing: 3px;
+            font-stretch: extra-condensed;
+        }
+
+        .signature {
+            color: #fff;
+            font-size: 38px;
+            font-weight: 500;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin: 165px 0;
+        }
+    }
+
+    &__cards {
+        display: flex;
+        justify-content: space-around;
+
+        .card {
+            .F-logo {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 133px;
+                height: 133px;
+                margin: 0 auto;
+                border-radius: 50%;
+                background-color: #2e85aa;
+
+                .ikons {
+                    margin: 50px;
+                }
+            }
+
+            .name {
+                color: #ffffff;
+                font-size: 18px;
+                font-weight: 500;
+                padding: 24px 0;
+                text-align: center;
+                text-transform: uppercase;
+                background-color: #11749e;
+            }
+            .first-name {
+                text-align: center;
+                color: #ffffff;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 24px;
+                background-color: #11749e;
+            }
+        }
+
+    }
+}
